@@ -1,0 +1,60 @@
+@import '../../assets/variables.css';
+
+.container-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+    color: white;
+    z-index: 3;
+}
+
+.logo {
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
+  }
+
+.title-container {
+    display: flex;
+    gap: 10px;
+}
+
+.logo-text{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.grid-item {
+    display: flex;
+    align-items: center;
+}
+
+.container-content {
+    padding: 20px;
+    width: 100%;
+}
+
+.contact-button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-text{
+    font-weight: 600;
+}
+
+.contact-button {
+    color:#202426 !important; /* Text color */
+    background-color: #BFB08A !important; /* Transparent background */
+    box-shadow: 0px -3px 4px 0px rgba(255, 255, 255, 0.1),
+    0px 8px 16px 0px rgba(255, 255, 255, 0.1) !important;
+  }
+  
+  .contact-button:hover {
+    background-color: rgb(255, 255, 255, 0.8) !important; /* Hover background */
+    border-color: white !important; /* Border color on hover */
+  }
